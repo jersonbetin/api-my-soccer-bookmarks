@@ -1,0 +1,44 @@
+{
+  "name": "api-my-soccer-bookmarks",
+  "version": "1.0.0",
+  "description": "api about soccer bookmarks",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp",
+    "prod": "gulp babel-transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jersonbetin/api-my-soccer-bookmarks.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "Jerson Betin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jersonbetin/api-my-soccer-bookmarks/issues"
+  },
+  "homepage": "https://github.com/jersonbetin/api-my-soccer-bookmarks#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "nodemon": "^1.11.0"
+  }
+}
